@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-image: url(Background.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+}
+
+.main .box {
+    opacity: 0.7;
+    height: 644px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 0, 0, 0.85);
+}
+
+nav {
+    max-width: 50vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 100px;
+}
+
+nav img {
+    color: black;
+    width: 150px;
+    position: relative;
+    z-index: 1;
+    margin-left: -740px;
+    margin-top: 70px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: 4px solid rgb(0, 41, 12);
+    width: 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.saperation {
+    height: 9px;
+    background-color: rgb(78, 65, 65);
+    position: relative;
+    z-index: 20;
+    margin-bottom: -20px;
+}
+
+nav {
+    margin-right: 100px;
+}
+
+.hero1 {
+    font-family: 'Poppins', sans-serif;
+    height: calc(100% -136px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 155px 30px;
+    font-size: xx-large;
+    gap: 400px;
+}
+
+.hero {
+    height: calc(100% -530px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding: 92px 30px;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+select {
+    font-style: oblique;
+    font-weight: 530;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(142, 30, 30);
+    cursor: text;
+    border: 2px solid light-dark(rgb(118, 118, 118), rgba(133, 133, 133, 0.705));
+    border-radius: 6px;
+}
+
+.content {
+    background-color: rgba(213, 224, 176, 0.364);
+    padding: 20px;
+}
+
+.menu {
+    justify-content: center;
+    display: grid;
+    font-style: oblique;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;
+}
+
+.menu h2 {
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+}
+
+.BOX {
+    display: inline flex;
+    height: 118vh;
+    width: 29vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    border: 2px solid rgb(66, 60, 60);
+}
+
+.box1 {
+    display: inline flex;
+    gap: 36px;
+    padding: 10px 10px 10px 10px;
+    /* background-color: rgba(111, 226, 93, 0.232); */
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: stretch;
+    font-weight: 10px;
+}
+
+.box2 {
+    display: inline flex;
+    gap: 36px;
+    padding: 10px 10px 10px 10px;
+    /* background-color: rgba(111, 226, 93, 0.232); */
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.box3 {
+    display: inline flex;
+    gap: 36px;
+    padding: 10px 10px 10px 10px;
+    /* background-color: rgba(111, 226, 93, 0.232); */
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.box4 {
+    display: inline flex;
+    gap: 36px;
+    padding: 10px 10px 10px 10px;
+    /* background-color: rgba(111, 226, 93, 0.232); */
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.box5 {
+    gap: 36px;
+    padding: 10px 10px 10px 10px;
+    /* background-color: rgba(111, 226, 93, 0.232); */
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    display: inline flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.box6 {
+    display: inline flex;
+    gap: 36px;
+    padding: 10px 10px 10px 10px;
+    /* background-color: rgba(111, 226, 93, 0.232); */
+    background-color: rgb(255, 255, 255);
+    margin: 10px 10px 10px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.BOX table {
+    width: 80%;
+    margin-bottom: -15px;
+    border-collapse: collapse;
+    border: 3px solid rgba(7, 33, 10, 0.826);
+    background-color: rgba(170, 192, 173, 0.826);
+    font-style: italic;
+    row-gap: 5px;
+}
+
+.BOX th,
+.BOX td {
+    padding: 10px;
+    text-align: left;
+}
+
+.BOX th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+}
+
+.BOX td {
+    border-bottom: 1px solid #ddd;
+}
+
+.BOX h2 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-top: 45px;
+    margin-bottom: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.BOX1 {
+    height: 10vh;
+    background-color: rgba(255, 255, 255, 0.503);
+    width: 20vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    border: 2px solid rgb(108, 108, 108);
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.middle{
+    margin-bottom: 40px;
+    background-color: #8fc86869;;
+}
+
+.box21{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 60px 10px 10px 160px;
+    font-size: 1.2em;
+}
+
+.box22{
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    width: 18vw;
+    font-family: system-ui;
+    display: inline;
+    margin: 80px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-weight: normal;
+}
+.box23{
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    width: 20vw;
+    font-family: system-ui;
+    display: inline;
+    margin: 80px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-weight: normal;
+}
+.box24{
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    width: 20vw;
+    font-family: system-ui;
+    display: inline;
+    margin: 80px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-weight: normal;
+}
+.box25{
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    width: 20vw;
+    font-family: system-ui;
+    display: inline;
+    margin: 80px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-weight: normal;
+}
+
+.box22 h4 {
+    margin-bottom: 30px; 
+    font-weight: normal;
+}
+
+.box22 h3{
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.box23 h4 {
+    margin-bottom: 30px; 
+    font-weight: normal;
+}
+
+.box23 h3{
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.box24 h4 {
+    margin-bottom: 30px; 
+    font-weight: normal;
+}
+
+.box24 h3{
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+.box25 h4 {
+    margin-bottom: 30px; 
+    font-weight: normal;
+}
+
+.box25 h3{
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.box33{
+    background-color: black;
+}
